@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">RDTech</title>
+  <desc id="desc">Marca geometrica da RDTech.</desc>
+  <rect width="96" height="96" rx="18" fill="#0f3d3e"/>
+  <path d="M24 25h25c13 0 22 8 22 20 0 9-5 16-13 19l14 19H58L45 65h-8v18H24V25Zm13 12v17h12c6 0 9-3 9-9s-3-8-9-8H37Z" fill="#fbfaf7"/>
+  <path d="M21 21h54v9H21v-9Zm45 54h9v9h-9v-9Z" fill="#b7d645"/>
+</svg>

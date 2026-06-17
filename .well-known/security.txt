@@ -1,0 +1,4 @@
+Contact: mailto:suporte@rdtech.dev.br
+Preferred-Languages: pt-BR, en
+Canonical: https://rdtech.dev.br/.well-known/security.txt
+Expires: 2027-06-17T23:59:59Z
