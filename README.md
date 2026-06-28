@@ -5,6 +5,7 @@ Site institucional estático para `rdtech.dev.br`, preparado para deploy na Verc
 ## Estrutura
 
 - `index.html`: página principal da RDTech.
+- `produtos/carro-das-delicias/index.html`: página pública do aplicativo Carro das Delícias como produto da RDTech.
 - `contato/index.html`: canal oficial de contato.
 - `privacidade/index.html`: política de privacidade institucional.
 - `termos/index.html`: termos de uso do site.
@@ -12,6 +13,7 @@ Site institucional estático para `rdtech.dev.br`, preparado para deploy na Verc
 - `.well-known/security.txt`: contato público para assuntos de segurança.
 - `assets/rdtech-technology-workspace.webp`: imagem principal otimizada para carregamento rápido, com PNG como fallback.
 - `assets/rdtech-icon.png`: ícone oficial da empresa, gerado a partir da imagem do perfil RD Tech.
+- `assets/carro-das-delicias-icon.png`: ícone oficial do aplicativo Carro das Delícias usado na página do produto.
 - `vercel.json`: URLs limpas, barras finais e headers básicos de segurança.
 
 ## Deploy na Vercel
@@ -52,4 +54,4 @@ Depois que o domínio estiver verificado no Search Console:
 
 - O único e-mail público configurado no site é `suporte@rdtech.dev.br`.
 - Se a conta de desenvolvedor do Google Play usa razão social, CNPJ ou endereço comercial específico, atualize o bloco "Informações institucionais" com os dados oficiais correspondentes.
-- Se algum aplicativo coletar dados pessoais, crie uma política específica por aplicativo quando necessário.
+- Aplicativos publicados pela RDTech podem ter páginas próprias dentro de `produtos/` e documentos específicos no site público de cada app.
