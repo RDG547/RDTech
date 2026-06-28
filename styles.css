@@ -569,6 +569,140 @@ h3 {
   color: var(--coral);
 }
 
+.legal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.4rem;
+}
+
+.legal-nav a {
+  border: 1px solid rgba(15, 61, 62, 0.2);
+  border-radius: 999px;
+  padding: 0.48rem 0.78rem;
+  color: var(--teal-dark);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.legal-page h3 {
+  margin-top: 1.35rem;
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+.data-table {
+  width: 100%;
+  margin-block: 1rem;
+  border-collapse: collapse;
+  overflow-wrap: anywhere;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid var(--line);
+  padding: 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  background: #eef4ef;
+  color: var(--teal-dark);
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.delete-account-page {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.warning-panel,
+.success-panel {
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  padding: clamp(1.1rem, 3vw, 1.45rem);
+  box-shadow: 0 16px 45px rgba(23, 33, 32, 0.08);
+}
+
+.warning-panel {
+  border-color: rgba(217, 108, 79, 0.36);
+  background: #fff6f2;
+}
+
+.warning-panel h2,
+.success-panel h2 {
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+}
+
+.delete-form {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  padding: clamp(1.1rem, 3vw, 1.45rem);
+}
+
+.form-field {
+  display: grid;
+  gap: 0.38rem;
+}
+
+.form-field label,
+.checkbox-field {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid #cfdad4;
+  border-radius: 0.45rem;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  padding: 0.78rem 0.85rem;
+}
+
+.form-field textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: var(--teal);
+  outline: 3px solid rgba(15, 111, 104, 0.16);
+}
+
+.form-field span,
+.checkbox-field span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.checkbox-field {
+  display: flex;
+  gap: 0.72rem;
+  align-items: flex-start;
+}
+
+.checkbox-field input {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.25rem;
+  accent-color: var(--teal);
+}
+
 .site-footer {
   display: flex;
   align-items: flex-start;

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Excluir Conta do Carro das Delícias | RDTech</title>
+    <meta name="description" content="Solicite a exclusão da conta e dos dados pessoais vinculados ao aplicativo Carro das Delícias.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f3d3e">
+    <link rel="canonical" href="https://rdtech.dev.br/produtos/carro-das-delicias/excluir-conta/">
+    <link rel="icon" href="/assets/rdtech-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/rdtech-icon.png">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="site-header" aria-label="Cabeçalho principal">
+      <nav class="nav-shell" aria-label="Navegação principal">
+        <a class="brand" href="/" aria-label="RDTech, página inicial">
+          <img class="brand-icon" src="/assets/rdtech-icon.png" alt="" width="40" height="40" aria-hidden="true">
+          <span>RDTech</span>
+        </a>
+        <div class="nav-links">
+          <a href="/#atuacao">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 14h4l3-9 4 16 3-7h2"/>
+            </svg>
+            Atuação
+          </a>
+          <a href="/#produtos">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              <path d="m3.27 6.96 8.73 5.05 8.73-5.05"/>
+              <path d="M12 22.08V12"/>
+            </svg>
+            Produtos
+          </a>
+          <a href="/contato/">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 4h16v16H4z"/>
+              <path d="m22 6-10 7L2 6"/>
+            </svg>
+            Contato
+          </a>
+          <a href="/privacidade/">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            Privacidade
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="page-hero" aria-labelledby="page-title">
+        <p class="eyebrow">Carro das Delícias</p>
+        <h1 id="page-title">Solicitar Exclusão de Conta</h1>
+        <p>Preencha o formulário para solicitar a exclusão da sua conta e dos dados pessoais associados ao aplicativo.</p>
+        <nav class="legal-nav" aria-label="Documentos do aplicativo">
+          <a href="/produtos/carro-das-delicias/">Produto</a>
+          <a href="/produtos/carro-das-delicias/politica-de-privacidade/">Privacidade</a>
+          <a href="/produtos/carro-das-delicias/termos-de-servico/">Termos</a>
+        </nav>
+      </section>
+
+      <section class="content-page delete-account-page" aria-label="Formulário de exclusão de conta">
+        <div class="warning-panel">
+          <h2>Atenção: esta ação é irreversível</h2>
+          <p>Ao solicitar a exclusão da conta, os dados de perfil, autenticação, favoritos, notificações e histórico de pedidos vinculados à sua conta serão removidos quando aplicável.</p>
+          <p>Dados relacionados a obrigações fiscais, legais ou contábeis podem ser mantidos pelo período exigido por lei, preferencialmente de forma anonimizada quando possível.</p>
+        </div>
+
+        <form class="delete-form" id="deleteForm">
+          <div class="form-field">
+            <label for="name">Nome completo *</label>
+            <input type="text" id="name" name="name" required maxlength="200" autocomplete="name" placeholder="Seu nome completo cadastrado no app">
+          </div>
+
+          <div class="form-field">
+            <label for="email">E-mail da conta *</label>
+            <input type="email" id="email" name="email" required maxlength="254" autocomplete="email" placeholder="email@exemplo.com">
+            <span>Use o mesmo e-mail cadastrado no aplicativo.</span>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Telefone cadastrado</label>
+            <input type="tel" id="phone" name="phone" maxlength="20" autocomplete="tel" placeholder="(00) 00000-0000">
+            <span>Opcional. Ajuda a identificar sua conta mais rapidamente.</span>
+          </div>
+
+          <div class="form-field">
+            <label for="reason">Motivo da exclusão</label>
+            <select id="reason" name="reason">
+              <option value="">Selecione um motivo opcional</option>
+              <option value="Não uso mais o aplicativo">Não uso mais o aplicativo</option>
+              <option value="Preocupações com privacidade">Preocupações com privacidade</option>
+              <option value="Experiência insatisfatória">Experiência insatisfatória</option>
+              <option value="Tenho outra conta">Tenho outra conta</option>
+              <option value="Outro motivo">Outro motivo</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="comments">Comentários adicionais</label>
+            <textarea id="comments" name="comments" maxlength="1000" placeholder="Se quiser, conte mais sobre o motivo da exclusão."></textarea>
+          </div>
+
+          <label class="checkbox-field">
+            <input type="checkbox" id="confirm" required>
+            <span>Confirmo que desejo excluir minha conta e entendo que esta ação é irreversível.</span>
+          </label>
+
+          <button class="button button-primary" type="submit" id="submitBtn">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M4 4h16v16H4z"/>
+              <path d="m22 6-10 7L2 6"/>
+            </svg>
+            Solicitar exclusão
+          </button>
+        </form>
+
+        <div class="success-panel" id="successMessage" hidden>
+          <h2>Solicitação preparada</h2>
+          <p>Seu aplicativo de e-mail foi aberto com a solicitação preenchida. Envie a mensagem para que o suporte processe a exclusão em até 30 dias úteis.</p>
+          <p>Se o e-mail não abrir automaticamente, envie a solicitação para <a href="mailto:suporte@rdtech.dev.br">suporte@rdtech.dev.br</a>.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="/" aria-label="RDTech, página inicial">
+          <img class="brand-icon" src="/assets/rdtech-icon.png" alt="" width="36" height="36" aria-hidden="true">
+          <span>RDTech</span>
+        </a>
+        <p>Desenvolvimento de software, aplicativos e soluções digitais.</p>
+      </div>
+      <nav class="footer-links" aria-label="Links do rodapé">
+        <a href="/produtos/carro-das-delicias/">Carro das Delícias</a>
+        <a href="/produtos/carro-das-delicias/politica-de-privacidade/">Privacidade</a>
+        <a href="/produtos/carro-das-delicias/termos-de-servico/">Termos</a>
+      </nav>
+    </footer>
+
+    <script>
+      const phone = document.getElementById('phone');
+      phone.addEventListener('input', function (event) {
+        let value = event.target.value.replace(/\D/g, '').slice(0, 11);
+        if (value.length > 6) {
+          value = '(' + value.slice(0, 2) + ') ' + value.slice(2, 7) + '-' + value.slice(7);
+        } else if (value.length > 2) {
+          value = '(' + value.slice(0, 2) + ') ' + value.slice(2);
+        } else if (value.length > 0) {
+          value = '(' + value;
+        }
+        event.target.value = value;
+      });
+
+      document.getElementById('deleteForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const data = {
+          name: document.getElementById('name').value.trim(),
+          email: document.getElementById('email').value.trim(),
+          phone: document.getElementById('phone').value.trim(),
+          reason: document.getElementById('reason').value,
+          comments: document.getElementById('comments').value.trim(),
+          timestamp: new Date().toISOString()
+        };
+
+        const subject = encodeURIComponent('Solicitação de Exclusão de Conta - Carro das Delícias');
+        const body = encodeURIComponent(
+          'Solicitação de Exclusão de Conta\n' +
+          '================================\n\n' +
+          'Nome: ' + data.name + '\n' +
+          'E-mail: ' + data.email + '\n' +
+          'Telefone: ' + (data.phone || 'Não informado') + '\n' +
+          'Motivo: ' + (data.reason || 'Não informado') + '\n' +
+          'Comentários: ' + (data.comments || 'Nenhum') + '\n' +
+          'Data da solicitação: ' + data.timestamp + '\n'
+        );
+
+        window.location.href = 'mailto:suporte@rdtech.dev.br?subject=' + subject + '&body=' + body;
+        document.getElementById('successMessage').hidden = false;
+      });
+    </script>
+  </body>
+</html>

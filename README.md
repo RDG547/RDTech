@@ -6,6 +6,9 @@ Site institucional estático para `rdtech.dev.br`, preparado para deploy na Verc
 
 - `index.html`: página principal da RDTech.
 - `produtos/carro-das-delicias/index.html`: página pública do aplicativo Carro das Delícias como produto da RDTech.
+- `produtos/carro-das-delicias/politica-de-privacidade/index.html`: política de privacidade do app no domínio RDTech.
+- `produtos/carro-das-delicias/termos-de-servico/index.html`: termos de serviço do app no domínio RDTech.
+- `produtos/carro-das-delicias/excluir-conta/index.html`: formulário público de solicitação de exclusão de conta.
 - `contato/index.html`: canal oficial de contato.
 - `privacidade/index.html`: política de privacidade institucional.
 - `termos/index.html`: termos de uso do site.
